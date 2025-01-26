@@ -23,7 +23,7 @@ export default function UserProfile() {
         {/* Display user avatar if uploaded, otherwise show initials */}
         {user?.avatar ? (
           <img
-            src={`http://localhost:5000${user.avatar}`}
+            src={`https://noteybe.onrender.com${user.avatar}`}
             alt={user.name}
             className="w-8 h-8 rounded-full object-cover"
           />
