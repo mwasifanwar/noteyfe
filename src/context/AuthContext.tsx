@@ -14,7 +14,8 @@ interface AuthContextType {
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);
-const BASE_URL = 'http://localhost:5000';
+const BASE_URL = 'https://noteybe.onrender.com';
+
 
 export function AuthProvider({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
