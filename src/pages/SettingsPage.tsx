@@ -129,8 +129,8 @@ export default function SettingsPage() {
                         {/* Show existing profile picture */}
                         {user?.avatar ? (
                           <img
-                            src={`https://noteybe.onrender.com${user.avatar}`}
-                            alt={user.name}
+                            src={`https://noteybe.onrender.com${user?.avatar}`}
+                            alt={user?.name || "Avatar"}
                             className="w-20 h-20 rounded-full object-cover border-2 border-pink-400"
                           />
                         ) : (
