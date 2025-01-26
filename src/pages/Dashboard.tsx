@@ -11,7 +11,7 @@ import { List, Grid, Menu, X } from "lucide-react";
 import { useAuth } from "../context/AuthContext"; // Import the AuthContext
 
 // Base URL for backend API
-const API_BASE_URL = "http://localhost:5000";
+const API_BASE_URL = "https://noteybe.onrender.com";
 
 export default function Dashboard() {
   const { user } = useAuth(); // Get the current user from AuthContext
