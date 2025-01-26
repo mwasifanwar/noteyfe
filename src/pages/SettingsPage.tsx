@@ -43,7 +43,7 @@ export default function SettingsPage() {
         const formData = new FormData();
         formData.append('avatar', profilePicture);
 
-        const response = await fetch('http://localhost:5000/api/upload-avatar', {
+        const response = await fetch('https://noteybe.onrender.com/api/upload-avatar', {
           method: 'POST',
           body: formData,
         });
